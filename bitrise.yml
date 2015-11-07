@@ -22,7 +22,9 @@ workflows:
             set -e
             set -x
 
-            $BUILD_TOOL -project $BITRISE_PROJECT_PATH -scheme $BITRISE_SCHEME test
+            # NOTE: xctool doesn't support running Xcode 7 UI tests!!
+            #  link: https://github.com/facebook/xctool/issues/534
+            xcodebuild -project $BITRISE_PROJECT_PATH -scheme $BITRISE_SCHEME test
   archive:
     steps:
     - script:

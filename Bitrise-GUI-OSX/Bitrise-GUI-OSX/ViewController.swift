@@ -14,6 +14,10 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        
+//        let bitriseCLI = BitriseCLI()
+//        bitriseCLI.version()
     }
 
     override var representedObject: AnyObject? {
@@ -23,5 +27,9 @@ class ViewController: NSViewController {
     }
 
 
+    @IBAction func printBitriseVersion(sender: AnyObject) {
+        let bitriseCLI = BitriseCLI()
+        NSLog(bitriseCLI.exec(["hi"]))
+    }
 }
 

@@ -731,12 +731,15 @@
                                 </scroller>
                             </scrollView>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U5W-2R-yhE">
-                                <rect key="frame" x="326" y="270" width="81" height="32"/>
+                                <rect key="frame" x="287" y="308" width="81" height="32"/>
                                 <animations/>
                                 <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="WY5-qQ-qpz">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="printBitriseVersion:" target="XfG-lQ-9wD" id="ETk-0S-ljq"/>
+                                </connections>
                             </button>
                         </subviews>
                         <constraints>

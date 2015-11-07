@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA8B6D931BEE36B700059669 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B6D921BEE36B700059669 /* AppDelegate.swift */; };
+		BA8B6D951BEE36B700059669 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B6D941BEE36B700059669 /* ViewController.swift */; };
+		BA8B6D981BEE36B700059669 /* Bitrise_GUI_OSX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA8B6D961BEE36B700059669 /* Bitrise_GUI_OSX.xcdatamodeld */; };
+		BA8B6D9A1BEE36B700059669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8B6D991BEE36B700059669 /* Assets.xcassets */; };
+		BA8B6D9D1BEE36B700059669 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8B6D9B1BEE36B700059669 /* Main.storyboard */; };
+		BA8B6DA81BEE36B700059669 /* Bitrise_GUI_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B6DA71BEE36B700059669 /* Bitrise_GUI_OSXTests.swift */; };
+		BA8B6DB31BEE36B700059669 /* Bitrise_GUI_OSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B6DB21BEE36B700059669 /* Bitrise_GUI_OSXUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA8B6DA41BEE36B700059669 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA8B6D871BEE36B700059669 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA8B6D8E1BEE36B700059669;
+			remoteInfo = "Bitrise-GUI-OSX";
+		};
+		BA8B6DAF1BEE36B700059669 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA8B6D871BEE36B700059669 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA8B6D8E1BEE36B700059669;
+			remoteInfo = "Bitrise-GUI-OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA8B6D8F1BEE36B700059669 /* Bitrise-GUI-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitrise-GUI-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8B6D921BEE36B700059669 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA8B6D941BEE36B700059669 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA8B6D971BEE36B700059669 /* Bitrise_GUI_OSX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bitrise_GUI_OSX.xcdatamodel; sourceTree = "<group>"; };
+		BA8B6D991BEE36B700059669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA8B6D9C1BEE36B700059669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA8B6D9E1BEE36B700059669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8B6DA31BEE36B700059669 /* Bitrise-GUI-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bitrise-GUI-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8B6DA71BEE36B700059669 /* Bitrise_GUI_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bitrise_GUI_OSXTests.swift; sourceTree = "<group>"; };
+		BA8B6DA91BEE36B700059669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8B6DAE1BEE36B700059669 /* Bitrise-GUI-OSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bitrise-GUI-OSXUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8B6DB21BEE36B700059669 /* Bitrise_GUI_OSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bitrise_GUI_OSXUITests.swift; sourceTree = "<group>"; };
+		BA8B6DB41BEE36B700059669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA8B6D8C1BEE36B700059669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8B6DA01BEE36B700059669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8B6DAB1BEE36B700059669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA8B6D861BEE36B700059669 = {
+			isa = PBXGroup;
+			children = (
+				BA8B6D911BEE36B700059669 /* Bitrise-GUI-OSX */,
+				BA8B6DA61BEE36B700059669 /* Bitrise-GUI-OSXTests */,
+				BA8B6DB11BEE36B700059669 /* Bitrise-GUI-OSXUITests */,
+				BA8B6D901BEE36B700059669 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA8B6D901BEE36B700059669 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA8B6D8F1BEE36B700059669 /* Bitrise-GUI-OSX.app */,
+				BA8B6DA31BEE36B700059669 /* Bitrise-GUI-OSXTests.xctest */,
+				BA8B6DAE1BEE36B700059669 /* Bitrise-GUI-OSXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA8B6D911BEE36B700059669 /* Bitrise-GUI-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				BA8B6D921BEE36B700059669 /* AppDelegate.swift */,
+				BA8B6D941BEE36B700059669 /* ViewController.swift */,
+				BA8B6D991BEE36B700059669 /* Assets.xcassets */,
+				BA8B6D9B1BEE36B700059669 /* Main.storyboard */,
+				BA8B6D9E1BEE36B700059669 /* Info.plist */,
+				BA8B6D961BEE36B700059669 /* Bitrise_GUI_OSX.xcdatamodeld */,
+			);
+			path = "Bitrise-GUI-OSX";
+			sourceTree = "<group>";
+		};
+		BA8B6DA61BEE36B700059669 /* Bitrise-GUI-OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA8B6DA71BEE36B700059669 /* Bitrise_GUI_OSXTests.swift */,
+				BA8B6DA91BEE36B700059669 /* Info.plist */,
+			);
+			path = "Bitrise-GUI-OSXTests";
+			sourceTree = "<group>";
+		};
+		BA8B6DB11BEE36B700059669 /* Bitrise-GUI-OSXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA8B6DB21BEE36B700059669 /* Bitrise_GUI_OSXUITests.swift */,
+				BA8B6DB41BEE36B700059669 /* Info.plist */,
+			);
+			path = "Bitrise-GUI-OSXUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA8B6D8E1BEE36B700059669 /* Bitrise-GUI-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8B6DB71BEE36B700059669 /* Build configuration list for PBXNativeTarget "Bitrise-GUI-OSX" */;
+			buildPhases = (
+				BA8B6D8B1BEE36B700059669 /* Sources */,
+				BA8B6D8C1BEE36B700059669 /* Frameworks */,
+				BA8B6D8D1BEE36B700059669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bitrise-GUI-OSX";
+			productName = "Bitrise-GUI-OSX";
+			productReference = BA8B6D8F1BEE36B700059669 /* Bitrise-GUI-OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA8B6DA21BEE36B700059669 /* Bitrise-GUI-OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8B6DBA1BEE36B700059669 /* Build configuration list for PBXNativeTarget "Bitrise-GUI-OSXTests" */;
+			buildPhases = (
+				BA8B6D9F1BEE36B700059669 /* Sources */,
+				BA8B6DA01BEE36B700059669 /* Frameworks */,
+				BA8B6DA11BEE36B700059669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA8B6DA51BEE36B700059669 /* PBXTargetDependency */,
+			);
+			name = "Bitrise-GUI-OSXTests";
+			productName = "Bitrise-GUI-OSXTests";
+			productReference = BA8B6DA31BEE36B700059669 /* Bitrise-GUI-OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA8B6DAD1BEE36B700059669 /* Bitrise-GUI-OSXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8B6DBD1BEE36B700059669 /* Build configuration list for PBXNativeTarget "Bitrise-GUI-OSXUITests" */;
+			buildPhases = (
+				BA8B6DAA1BEE36B700059669 /* Sources */,
+				BA8B6DAB1BEE36B700059669 /* Frameworks */,
+				BA8B6DAC1BEE36B700059669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA8B6DB01BEE36B700059669 /* PBXTargetDependency */,
+			);
+			name = "Bitrise-GUI-OSXUITests";
+			productName = "Bitrise-GUI-OSXUITests";
+			productReference = BA8B6DAE1BEE36B700059669 /* Bitrise-GUI-OSXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA8B6D871BEE36B700059669 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = bitrise;
+				TargetAttributes = {
+					BA8B6D8E1BEE36B700059669 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					BA8B6DA21BEE36B700059669 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BA8B6D8E1BEE36B700059669;
+					};
+					BA8B6DAD1BEE36B700059669 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BA8B6D8E1BEE36B700059669;
+					};
+				};
+			};
+			buildConfigurationList = BA8B6D8A1BEE36B700059669 /* Build configuration list for PBXProject "Bitrise-GUI-OSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA8B6D861BEE36B700059669;
+			productRefGroup = BA8B6D901BEE36B700059669 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA8B6D8E1BEE36B700059669 /* Bitrise-GUI-OSX */,
+				BA8B6DA21BEE36B700059669 /* Bitrise-GUI-OSXTests */,
+				BA8B6DAD1BEE36B700059669 /* Bitrise-GUI-OSXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA8B6D8D1BEE36B700059669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8B6D9A1BEE36B700059669 /* Assets.xcassets in Resources */,
+				BA8B6D9D1BEE36B700059669 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8B6DA11BEE36B700059669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8B6DAC1BEE36B700059669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA8B6D8B1BEE36B700059669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8B6D951BEE36B700059669 /* ViewController.swift in Sources */,
+				BA8B6D931BEE36B700059669 /* AppDelegate.swift in Sources */,
+				BA8B6D981BEE36B700059669 /* Bitrise_GUI_OSX.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8B6D9F1BEE36B700059669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8B6DA81BEE36B700059669 /* Bitrise_GUI_OSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8B6DAA1BEE36B700059669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8B6DB31BEE36B700059669 /* Bitrise_GUI_OSXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA8B6DA51BEE36B700059669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA8B6D8E1BEE36B700059669 /* Bitrise-GUI-OSX */;
+			targetProxy = BA8B6DA41BEE36B700059669 /* PBXContainerItemProxy */;
+		};
+		BA8B6DB01BEE36B700059669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA8B6D8E1BEE36B700059669 /* Bitrise-GUI-OSX */;
+			targetProxy = BA8B6DAF1BEE36B700059669 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA8B6D9B1BEE36B700059669 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA8B6D9C1BEE36B700059669 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA8B6DB51BEE36B700059669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA8B6DB61BEE36B700059669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BA8B6DB81BEE36B700059669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Bitrise-GUI-OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bitrise.Bitrise-GUI-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA8B6DB91BEE36B700059669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Bitrise-GUI-OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bitrise.Bitrise-GUI-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA8B6DBB1BEE36B700059669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Bitrise-GUI-OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bitrise.Bitrise-GUI-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitrise-GUI-OSX.app/Contents/MacOS/Bitrise-GUI-OSX";
+			};
+			name = Debug;
+		};
+		BA8B6DBC1BEE36B700059669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Bitrise-GUI-OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bitrise.Bitrise-GUI-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitrise-GUI-OSX.app/Contents/MacOS/Bitrise-GUI-OSX";
+			};
+			name = Release;
+		};
+		BA8B6DBE1BEE36B700059669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Bitrise-GUI-OSXUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bitrise.Bitrise-GUI-OSXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bitrise-GUI-OSX";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BA8B6DBF1BEE36B700059669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Bitrise-GUI-OSXUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bitrise.Bitrise-GUI-OSXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bitrise-GUI-OSX";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA8B6D8A1BEE36B700059669 /* Build configuration list for PBXProject "Bitrise-GUI-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8B6DB51BEE36B700059669 /* Debug */,
+				BA8B6DB61BEE36B700059669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8B6DB71BEE36B700059669 /* Build configuration list for PBXNativeTarget "Bitrise-GUI-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8B6DB81BEE36B700059669 /* Debug */,
+				BA8B6DB91BEE36B700059669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA8B6DBA1BEE36B700059669 /* Build configuration list for PBXNativeTarget "Bitrise-GUI-OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8B6DBB1BEE36B700059669 /* Debug */,
+				BA8B6DBC1BEE36B700059669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA8B6DBD1BEE36B700059669 /* Build configuration list for PBXNativeTarget "Bitrise-GUI-OSXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8B6DBE1BEE36B700059669 /* Debug */,
+				BA8B6DBF1BEE36B700059669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA8B6D961BEE36B700059669 /* Bitrise_GUI_OSX.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA8B6D971BEE36B700059669 /* Bitrise_GUI_OSX.xcdatamodel */,
+			);
+			currentVersion = BA8B6D971BEE36B700059669 /* Bitrise_GUI_OSX.xcdatamodel */;
+			path = Bitrise_GUI_OSX.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA8B6D871BEE36B700059669 /* Project object */;
+}

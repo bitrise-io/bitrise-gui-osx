@@ -39,7 +39,7 @@
             </BuildableReference>
          </TestableReference>
          <TestableReference
-            skipped = "NO">
+            skipped = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BA8B6DAD1BEE36B700059669"

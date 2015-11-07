@@ -10,9 +10,6 @@
 		BA29C5AC1BEE41200051D27F /* bitrise in Resources */ = {isa = PBXBuildFile; fileRef = BA29C5AB1BEE41200051D27F /* bitrise */; };
 		BA29C5AD1BEE41200051D27F /* bitrise in Resources */ = {isa = PBXBuildFile; fileRef = BA29C5AB1BEE41200051D27F /* bitrise */; };
 		BA29C5AE1BEE41200051D27F /* bitrise in Resources */ = {isa = PBXBuildFile; fileRef = BA29C5AB1BEE41200051D27F /* bitrise */; };
-		BA29C5B41BEE41A40051D27F /* BitriseCLI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA29C5B31BEE41A40051D27F /* BitriseCLI.swift */; };
-		BA29C5B51BEE41A40051D27F /* BitriseCLI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA29C5B31BEE41A40051D27F /* BitriseCLI.swift */; };
-		BA29C5B61BEE41A40051D27F /* BitriseCLI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA29C5B31BEE41A40051D27F /* BitriseCLI.swift */; };
 		BA29C5B81BEE43930051D27F /* BitriseCLITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA29C5B71BEE43930051D27F /* BitriseCLITests.swift */; };
 		BA8B6D931BEE36B700059669 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B6D921BEE36B700059669 /* AppDelegate.swift */; };
 		BA8B6D951BEE36B700059669 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B6D941BEE36B700059669 /* ViewController.swift */; };
@@ -21,6 +18,9 @@
 		BA8B6D9D1BEE36B700059669 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8B6D9B1BEE36B700059669 /* Main.storyboard */; };
 		BA8B6DA81BEE36B700059669 /* Bitrise_GUI_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B6DA71BEE36B700059669 /* Bitrise_GUI_OSXTests.swift */; };
 		BA8B6DB31BEE36B700059669 /* Bitrise_GUI_OSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B6DB21BEE36B700059669 /* Bitrise_GUI_OSXUITests.swift */; };
+		BABE868F1BEE781C00D882AA /* BitriseCLI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABE868E1BEE781C00D882AA /* BitriseCLI.swift */; };
+		BABE86901BEE781C00D882AA /* BitriseCLI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABE868E1BEE781C00D882AA /* BitriseCLI.swift */; };
+		BABE86911BEE781C00D882AA /* BitriseCLI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABE868E1BEE781C00D882AA /* BitriseCLI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,6 @@
 
 /* Begin PBXFileReference section */
 		BA29C5AB1BEE41200051D27F /* bitrise */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = bitrise; path = bin/bitrise; sourceTree = "<group>"; };
-		BA29C5B31BEE41A40051D27F /* BitriseCLI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitriseCLI.swift; sourceTree = "<group>"; };
 		BA29C5B71BEE43930051D27F /* BitriseCLITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitriseCLITests.swift; sourceTree = "<group>"; };
 		BA8B6D8F1BEE36B700059669 /* Bitrise-GUI-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitrise-GUI-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8B6D921BEE36B700059669 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +56,7 @@
 		BA8B6DAE1BEE36B700059669 /* Bitrise-GUI-OSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bitrise-GUI-OSXUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8B6DB21BEE36B700059669 /* Bitrise_GUI_OSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bitrise_GUI_OSXUITests.swift; sourceTree = "<group>"; };
 		BA8B6DB41BEE36B700059669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BABE868E1BEE781C00D882AA /* BitriseCLI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitriseCLI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,13 +116,13 @@
 		BA8B6D911BEE36B700059669 /* Bitrise-GUI-OSX */ = {
 			isa = PBXGroup;
 			children = (
+				BABE868D1BEE781C00D882AA /* BitriseCLI */,
 				BA8B6D921BEE36B700059669 /* AppDelegate.swift */,
 				BA8B6D941BEE36B700059669 /* ViewController.swift */,
 				BA8B6D991BEE36B700059669 /* Assets.xcassets */,
 				BA8B6D9B1BEE36B700059669 /* Main.storyboard */,
 				BA8B6D9E1BEE36B700059669 /* Info.plist */,
 				BA8B6D961BEE36B700059669 /* Bitrise_GUI_OSX.xcdatamodeld */,
-				BA29C5B31BEE41A40051D27F /* BitriseCLI.swift */,
 			);
 			path = "Bitrise-GUI-OSX";
 			sourceTree = "<group>";
@@ -144,6 +144,14 @@
 				BA8B6DB41BEE36B700059669 /* Info.plist */,
 			);
 			path = "Bitrise-GUI-OSXUITests";
+			sourceTree = "<group>";
+		};
+		BABE868D1BEE781C00D882AA /* BitriseCLI */ = {
+			isa = PBXGroup;
+			children = (
+				BABE868E1BEE781C00D882AA /* BitriseCLI.swift */,
+			);
+			path = BitriseCLI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA8B6D951BEE36B700059669 /* ViewController.swift in Sources */,
-				BA29C5B41BEE41A40051D27F /* BitriseCLI.swift in Sources */,
+				BABE868F1BEE781C00D882AA /* BitriseCLI.swift in Sources */,
 				BA8B6D931BEE36B700059669 /* AppDelegate.swift in Sources */,
 				BA8B6D981BEE36B700059669 /* Bitrise_GUI_OSX.xcdatamodeld in Sources */,
 			);
@@ -291,8 +299,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA8B6DA81BEE36B700059669 /* Bitrise_GUI_OSXTests.swift in Sources */,
+				BABE86901BEE781C00D882AA /* BitriseCLI.swift in Sources */,
 				BA29C5B81BEE43930051D27F /* BitriseCLITests.swift in Sources */,
-				BA29C5B51BEE41A40051D27F /* BitriseCLI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA8B6DB31BEE36B700059669 /* Bitrise_GUI_OSXUITests.swift in Sources */,
-				BA29C5B61BEE41A40051D27F /* BitriseCLI.swift in Sources */,
+				BABE86911BEE781C00D882AA /* BitriseCLI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

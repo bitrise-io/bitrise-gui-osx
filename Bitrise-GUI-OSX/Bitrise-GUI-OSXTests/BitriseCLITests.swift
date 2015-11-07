@@ -22,8 +22,7 @@ class BitriseCLITests: XCTestCase {
     }
     
     func testVersion() {
-        let bitriseCLI = BitriseCLI()
-        XCTAssertEqual("1.2.4\n", bitriseCLI.version())
+        XCTAssertEqual("1.2.4", BitriseCLI().version())
     }
     
     func testPerformanceExample() {

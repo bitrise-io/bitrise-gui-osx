@@ -28,8 +28,8 @@ class ViewController: NSViewController {
 
 
     @IBAction func printBitriseVersion(sender: AnyObject) {
-        let bitriseCLI = BitriseCLI()
-        NSLog(bitriseCLI.exec(["hi"]))
+        //let bitriseCLI = BitriseCLI()
+        //NSLog("Version: %s", bitriseCLI.exec(["hi"]))
     }
 }
 

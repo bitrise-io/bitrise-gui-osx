@@ -8,22 +8,21 @@
 
 import Foundation
 
-enum BitriseCLIErrors: ErrorType {
+enum BitriseCLIErrors: Error {
     case InvalidResponse
 }
 
 class BitriseCLI {
     
-    func bitriseBinLocation() -> String {
-        let binLoc = NSBundle.mainBundle().pathForResource("bitrise", ofType: "")
-        return binLoc!
+    var bitriseBinLocation: String {
+        return  Bundle.main.path(forResource: "bitrise", ofType: "")!
     }
     
-    func version() -> String? {
-        let outputData = self.exec(["version", "--format=json"])
+    var version: String? {
+        let outputData = exec(args: ["version", "--format=json"])
         
         do {
-            if let json: NSDictionary = try NSJSONSerialization.JSONObjectWithData(outputData, options: NSJSONReadingOptions.MutableContainers) as? NSDictionary {
+            if let json = try JSONSerialization.jsonObject(with: outputData, options: .mutableContainers) as? [String: Any] {
                 if let verStr = json["version"] as? String {
                     return verStr
                 }
@@ -36,16 +35,16 @@ class BitriseCLI {
         return nil
     }
     
-    func convertOutputDataToString(outputData: NSData) -> String {
-        return String(data: outputData, encoding: NSUTF8StringEncoding)!
+    func convertOutputDataToString(outputData: Data) -> String {
+        return String(data: outputData, encoding: .utf8)!
     }
     
-    func exec(args: [String]?) -> NSData {
-        let task = NSTask()
-        task.launchPath = bitriseBinLocation()
+    func exec(args: [String]?) -> Data {
+        let task = Process()
+        task.launchPath = bitriseBinLocation
         task.arguments = args
         
-        let pipe = NSPipe()
+        let pipe = Pipe()
         task.standardOutput = pipe
         task.launch()
         

@@ -1,2 +1,5 @@
 .bitrise*
 xcuserdata
+/.DS_Store
+/Bitrise-GUI-OSX/.DS_Store
+/Bitrise-GUI-OSX/Bitrise-GUI-OSX.xcodeproj/project.xcworkspace/xcshareddata
